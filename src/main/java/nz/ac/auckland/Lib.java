@@ -31,9 +31,9 @@ public class Lib {
 	 */
 	public static int min(int a, int b, int c) {
 		int m=a;
-		if(m<b)
+		if(m>b)
 			m=b;
-		if(m<c)
+		if(m>c)
 			m=c;
 		return m;
 	}
