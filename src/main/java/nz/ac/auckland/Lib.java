@@ -37,5 +37,17 @@ public class Lib {
 			m=c;
 		return m;
 	}
+	
+	/**
+	 * Returns the factorial of number.
+	 * Test code 
+	 * 
+	 * @param n integer number 
+	 * @return the factorial of number 
+	 */
+	public static int fact(int n) {
+		if(n<=1)return n;
+		else return n* fact(n-1);		
+	}
 
 }
