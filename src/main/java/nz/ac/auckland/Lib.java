@@ -30,7 +30,7 @@ public class Lib {
 	 * @return the smaller of a, b and c
 	 */
 	public static int min(int a, int b, int c) {
-		int m=a
+		int m=a;
 		if(m<b)
 			m=b;
 		if(m<c)
