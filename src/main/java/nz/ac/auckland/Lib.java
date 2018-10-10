@@ -49,5 +49,17 @@ public class Lib {
 		if(n<=1)return n;
 		else return n* fact(n-1);		
 	}
+	
+	/**
+	 * Returns the abs number.
+	 * Test code 
+	 * 
+	 * @param n integer number 
+	 * @return the absolute number 
+	 */
+	public static int abs(int n) {
+		if(n<0)return n*-1;
+		return n;		
+	}
 
 }
