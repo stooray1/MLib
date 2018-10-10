@@ -43,7 +43,7 @@ public class LibTest {
 	
 	@Test
 	public void testAbsP() {
-		assertEquals(nz.ac.auckland.Lib.abs(10), -10);
+		assertEquals(nz.ac.auckland.Lib.abs(10), 10);
 	}
 	
 	@Test
