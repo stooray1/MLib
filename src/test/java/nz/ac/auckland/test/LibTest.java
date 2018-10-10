@@ -40,5 +40,16 @@ public class LibTest {
 	public void testMinC() {
 		assertEquals(nz.ac.auckland.Lib.min(30, 20, 10), 10);
 	}
+	
+	@Test
+	public void testAbsP() {
+		assertEquals(nz.ac.auckland.Lib.abs(10), -10);
+	}
+	
+	@Test
+	public void testAbsN() {
+		assertEquals(nz.ac.auckland.Lib.abs(-10), 10);
+	}
+
 
 }
