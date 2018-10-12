@@ -19,6 +19,13 @@ public class Lib {
 			m=c;
 		return m;
 	}
+	public static int max(int a, int b) {
+		int m=a;
+		if(m<b)
+			m=b;
+		
+		return m;
+	}
 	
 	/**
 	 * Returns the smaller of three int values.
