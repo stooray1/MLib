@@ -22,7 +22,6 @@ public class LibTest {
 	public void testMaxC() {
 		assertEquals(nz.ac.auckland.Lib.max(10, 20, 30), 30);
 	}
-	
 
 	@Test
 	public void testMin() {
@@ -39,6 +38,10 @@ public class LibTest {
 	@Test
 	public void testMinC() {
 		assertEquals(nz.ac.auckland.Lib.min(30, 20, 10), 10);
+	}
+	@Test
+	public void testMinD() {
+		assertEquals(nz.ac.auckland.Lib.min(-30, -20, -10), -10);
 	}
 	
 	@Test
