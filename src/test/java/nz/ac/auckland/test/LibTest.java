@@ -41,7 +41,7 @@ public class LibTest {
 	}
 	@Test
 	public void testMinD() {
-		assertEquals(nz.ac.auckland.Lib.min(-30, -20, -10), -10);
+		assertEquals(nz.ac.auckland.Lib.min(-30, -20, -10), -30);
 	}
 	
 	@Test

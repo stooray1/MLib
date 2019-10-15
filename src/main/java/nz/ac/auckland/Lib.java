@@ -25,18 +25,7 @@ public class Lib {
 			m=b;
 		
 		return m;
-	}
-	/**
-	 * @param a
-	 * @param b
-	 * @return
-	 */
-	public static int min(int a, int b) {		
-		if(a>b)
-			return b;
-		
-		return a;
-	}
+	}	
 	
 	/**
 	 * Returns the smaller of three int values.
