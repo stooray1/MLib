@@ -22,6 +22,11 @@ public class LibTest {
 	public void testMaxC() {
 		assertEquals(nz.ac.auckland.Lib.max(10, 20, 30), 30);
 	}
+	
+	@Test
+	public void testMin2() {
+		assertEquals(nz.ac.auckland.Lib.min(10, 30), 10);
+	}
 
 	@Test
 	public void testMin() {

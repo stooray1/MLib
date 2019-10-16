@@ -45,6 +45,12 @@ public class Lib {
 		return m;
 	}
 	
+	public static int min(int a, int b) { 
+		if(a>b)
+			return a;
+		return b;
+	}
+	
 	/**
 	 * Returns the factorial of number.
 	 * Test code 
